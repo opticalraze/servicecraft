@@ -81,8 +81,7 @@ nav a:hover {
 }
 
 .content {
-  position: relative;
-  top: 72px;
+  margin-top:72px;
 }
 
 .main a {
