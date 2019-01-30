@@ -54,7 +54,8 @@ nav a:hover {
   color: white;
   font-family: 'Roboto', sans-serif;
   padding-left: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  box-shadow: -3px -3px 15px black;
 }
 .footer a {
   color: white;
@@ -70,6 +71,13 @@ nav a:hover {
 .main {
   height:95vh;
   padding: 5px 20px 20px 20px;
+  font-family: Verdana,sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.main h1 {
+  text-transform: uppercase;
 }
 
 .content {
@@ -77,21 +85,14 @@ nav a:hover {
   top: 72px;
 }
 
-.main h1 {
-  font-family: Verdana,sans-serif;
-  color: white;
-}
-
-.main h2 {
-  font-family: Verdana,sans-serif;
-  color: black;
-}
-
-.main h3 {
-  font-family: Verdana,sans-serif;
-  color: black;
-}
-
 .main a {
   color: white;
+}
+
+.btn-download {
+  background-color: #e51b23;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
