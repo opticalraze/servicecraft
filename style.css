@@ -95,3 +95,11 @@ nav a:hover {
   padding: 10px;
   cursor: pointer;
 }
+
+.btn-discord {
+  background-color: #e51b23;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
